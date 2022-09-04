@@ -1,0 +1,1 @@
+# Sample Rails 7 Artcile APP with new rails7 features, tailwind css and stimulus JS
