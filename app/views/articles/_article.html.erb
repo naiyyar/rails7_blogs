@@ -5,18 +5,17 @@
   </p>
 
   <p>
-    <strong>Description:</strong>
-    <%= article.description %>
-  </p>
-
-  <p>
-    <strong>User:</strong>
-    <%= article.user_id %>
+    <strong>Author:</strong>
+    <%= article.user.email %>
   </p>
 
   <p>
     <strong>Status:</strong>
     <%= article.status %>
+  </p>
+
+  <p class="my-4">
+    <%= article.description %>
   </p>
 
 </div>
